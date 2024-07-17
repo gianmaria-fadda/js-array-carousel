@@ -19,3 +19,14 @@ html {
     margin: 0 auto;
 }
 
+img {
+    max-width: 100%;
+}
+
+/*
+    MAIN
+*/
+
+main .col {
+
+}
