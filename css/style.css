@@ -33,6 +33,11 @@ main .col div > img {
     width: 1000px;
     object-fit: contain;
     z-index: 1;
+    display: none;
+}
+
+main .col div > img.active {
+    display: block;
 }
 
 main .col div > i:first-child {
