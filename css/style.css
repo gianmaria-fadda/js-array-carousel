@@ -27,7 +27,7 @@ img {
     MAIN
 */
 
-main .col div > img {
+main .col .images-container > img {
     margin-top: 200px;
     height: 400px;
     width: 1000px;
@@ -36,20 +36,20 @@ main .col div > img {
     display: none;
 }
 
-main .col div > img.active {
+main .col .images-container > img.active {
     display: block;
 }
 
-main .col div > i:first-child {
+main .col .buttons > i:first-child {
     top: 400px;
     left: 0;
     z-index: 2;
     cursor: pointer;
 }
 
-main .col div > i:last-child {
+main .col .buttons > i:last-child {
     top: 400px;
-    right: -25px;
+    right: 0px;
     z-index: 2;
     cursor: pointer;
 }
